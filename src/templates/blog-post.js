@@ -12,7 +12,7 @@ const BlogPostTemplate = ({ data}) => {
   return (
     <Layout >
       <article
-        className="blog-post"
+        className="blog-post static-page-body"
         itemScope
         itemType="http://schema.org/Article"
       >
@@ -41,14 +41,14 @@ const BlogPostTemplate = ({ data}) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link className="button-primary" to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link  className="button-primary" to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}

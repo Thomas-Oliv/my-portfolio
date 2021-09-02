@@ -29,6 +29,8 @@
     --spacing-20: 5rem;
     --spacing-24: 6rem;
     --spacing-32: 8rem;
+    --spacing-36: 9rem;
+    --spacing-40: 10rem;
     --primary-sans: 'Red Hat Display', sans-serif;
     --primary-serif: "Merriweather", serif;
     --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
@@ -153,10 +155,7 @@
     padding: var(--spacing-6) var(--spacing-0);
   }
 
-  .full-page
-  {
-    height: 100%;
-  }
+
   
   hr {
     height: 1px;
@@ -324,8 +323,8 @@
   }
   
   .post-list-item {
-    margin-bottom: var(--spacing-8);
-    margin-top: var(--spacing-8);
+    margin-bottom: var(--spacing-0);
+    margin-top: var(--spacing-0);
   }
   
   .post-list-item p {
@@ -367,6 +366,10 @@
     {
         width: 100%
     }
+
+    &:hover{
+      background-color: var(--color-secondary);
+    }
   }
   
   .bio .bio-text {
@@ -399,7 +402,11 @@
   
   .blog-post-nav ul {
     margin: var(--spacing-0);
+    margin-left: 5%;
+    margin-right: 5%;
   }
+  
+
   
   .gatsby-highlight {
     margin-bottom: var(--spacing-8);
@@ -418,8 +425,79 @@
     }
   }
 
-  .page-title
+  .static-page-title
   {
+    font-size: 3.5rem;
     text-align: center;
-    
+    color: var(--color-primary);
+  }
+
+  .static-page{
+    padding: 0;
+    margin: 0;
+  }
+
+  .static-page-body
+  {
+    padding-left: var(--spacing-32);
+    padding-right: var(--spacing-32);
+
+    @media screen and (max-width:960px)
+    {
+      padding-left: var(--spacing-16);
+      padding-right: var(--spacing-16);
+    }
+  }
+
+  .blog-page-body
+  {
+    padding-left: var(--spacing-40);
+    padding-right: var(--spacing-40);
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    @media screen and (max-width:960px)
+    {
+      padding-left: var(--spacing-16);
+      padding-right: var(--spacing-16);
+    }
+  }
+
+  .main-footer{
+    height: 30px;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+
+  .full-page
+  {
+    min-height: calc(100vh - 125px);
+  }
+
+  
+
+  .long-break{
+    color: var(--color-dark);
+    height: 3px;
+    border: none;
+    background-color: var(--color-dark);
+    margin-top: var(--spacing-8);
+    margin-bottom: var(--spacing-8);
+  }
+
+  .button-primary{
+    border: 2px inset var(--color-dark);
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    &:hover{
+      background-color: var(--color-secondary);
+      color: var(--color-dark);
+    }
   }

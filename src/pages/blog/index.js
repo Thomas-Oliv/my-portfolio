@@ -23,26 +23,29 @@ const BlogIndex = ({ data }) => {
   return (
     <Layout>
       <Bio />
-      <ol style={{ listStyle: `none` }}>
+      
+      <ol className="no-top-bottom" style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug}>
+            
+            <li key={post.fields.slug} className="blog-page-body">
+              <hr className="long-break"/>
               <article
                 className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
               >
                 <header>
-                  <h2 >
+                  <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span  className="color-primary" itemProp="headline">{title}</span>
                     </Link>
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
-                <section>
+                <section >
                   <p
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
@@ -54,6 +57,9 @@ const BlogIndex = ({ data }) => {
             </li>
           )
         })}
+        <li className="blog-page-body">
+          <hr className="long-break"/>
+        </li>
       </ol>
     </Layout>
   )

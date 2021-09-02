@@ -8,10 +8,10 @@ export default function Layout({ children }) {
       <div className="full-page">
           {children}
       </div>
-      <footer >
+      <footer className="main-footer">
         © {new Date().getFullYear()}, Built by Thomas Oliver with
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a className="color-secondary" href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
     </div>
    

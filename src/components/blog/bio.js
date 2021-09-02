@@ -6,8 +6,6 @@
  */
 
 import * as React from "react"
-import "../../styles/global.scss"
-import "../../styles/blog.scss"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
