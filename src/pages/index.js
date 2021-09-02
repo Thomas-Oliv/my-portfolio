@@ -6,7 +6,6 @@ import Layout from "../components/layout/layout"
 const IndexPage = () => {
   return (
     <Layout >
-    
       <h1>Test</h1>
       <h1>Test</h1>
       <h1>Test</h1>

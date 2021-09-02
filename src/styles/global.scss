@@ -379,7 +379,8 @@
   .bio-avatar {
     margin-right: var(--spacing-4);
     margin-bottom: var(--spacing-0);
-    min-width: 50px;
+    min-width: 70px;
+    min-height: 70px;
     border-radius: 100%;
   }
   
@@ -394,6 +395,10 @@
 
   .blog-post header h1 {
     margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+  }
+
+  .blog-post{
+    margin-top: 30px;
   }
   
   .blog-post header p {
@@ -487,6 +492,21 @@
     background-color: var(--color-dark);
     margin-top: var(--spacing-8);
     margin-bottom: var(--spacing-8);
+  }
+
+  .med-break{
+    color: var(--color-dark);
+    height: 3px;
+    border: none;
+    background-color: var(--color-dark);
+    width: var(--percent-70);
+    margin:auto;
+    margin-top: var(--spacing-8);
+    margin-bottom: var(--spacing-8);
+  }
+  .center-text
+  {
+    text-align: center;
   }
 
   .button-primary{
