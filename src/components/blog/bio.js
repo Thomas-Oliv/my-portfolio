@@ -6,7 +6,9 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import "../../styles/global.scss"
+import "../../styles/blog.scss"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Bio = () => {
@@ -19,7 +21,8 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            github
+            linkedIn
           }
         }
       }
@@ -36,19 +39,26 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/profile-pic.png"
+        src="../../images/profile-pic.png"
         width={50}
         height={50}
         quality={95}
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
+        <p className="color-dark bio-text">
           Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+          {` You should follow me on `}
+          <a className="color-dark" href={`https://github.com/${social?.github || ``}`}>
+             Github 
           </a>
+          {` or `}
+          <a className="color-dark" href={`https://linkedin.com/in/${social?.linkedIn || ``}`}>
+             LinkedIn
+          </a>
+          {'. You can also learn more about me '}
+          <Link to="/about" className="color-dark">Here</Link>
+          .
         </p>
       )}
     </div>

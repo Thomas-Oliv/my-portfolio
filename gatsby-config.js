@@ -1,23 +1,35 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    siteUrl: "https://tom-oliver.me",
+    title: "My-Portfolio",
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Thomas Oliver`,
+      summary: `, a computer engineering student at the University of Waterloo.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `My personal portfolio`,
     social: {
-      twitter: `kylemathews`,
+      github: `Thomas-Oliv`,
+      linkedIn: `thomas-oliver-430309194`,
     },
   },
   plugins: [
+    `gatsby-plugin-remark-collection`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/static`,
+        name: `static`,
       },
     },
     {
