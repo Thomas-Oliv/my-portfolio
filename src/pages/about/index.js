@@ -14,6 +14,7 @@ const AboutIndex = ({ data}) => {
       >
         <header >
           <h1 className="static-page-title" itemProp="headline">{post.frontmatter.title}</h1>
+          <hr className="med-break"/>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
