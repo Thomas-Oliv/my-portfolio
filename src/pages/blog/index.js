@@ -39,7 +39,7 @@ const BlogIndex = ({ data }) => {
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                    <Link to={'/blog'+post.fields.slug} itemProp="url">
                       <span  className="color-primary" itemProp="headline">{title}</span>
                     </Link>
                   </h2>
