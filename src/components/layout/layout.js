@@ -9,9 +9,11 @@ export default function Layout({ children }) {
           {children}
       </div>
       <footer className="main-footer">
+        <span>
         © {new Date().getFullYear()}, 
-        {`Built by Thomas Oliver with `}
+        {` Built by Thomas Oliver with `}
         <a className="color-secondary" href="https://www.gatsbyjs.com"> Gatsby</a>
+        </span>
       </footer>
     </div>
    
