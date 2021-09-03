@@ -1,12 +1,14 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout/layout"
+import Seo from "../components/layout/seo"
 
 const HomeIndex = ({ data}) => {
   const post = data.markdownRemark
 
   return (
     <Layout >
+      <Seo title="Home" />
       <article
         className="static-page"
         itemScope
