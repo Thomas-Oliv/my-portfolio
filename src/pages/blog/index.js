@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../../components/blog/bio"
 import Layout from "../../components/layout/layout"
+import Seo from "../../components/layout/seo"
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
@@ -10,6 +11,7 @@ const BlogIndex = ({ data }) => {
   if (posts.length === 0) {
     return (
       <Layout>
+        <Seo title="Blog"/>
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
@@ -22,8 +24,8 @@ const BlogIndex = ({ data }) => {
 
   return (
     <Layout>
+      <Seo title="Blog"/>
       <Bio />
-      
       <ol className="no-top-bottom" style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

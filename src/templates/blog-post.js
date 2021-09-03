@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/blog/bio"
 import Layout from "../components/layout/layout"
+import Seo from "../components/layout/seo"
 
 const BlogPostTemplate = ({ data}) => {
   const post = data.markdownRemark
@@ -11,6 +12,10 @@ const BlogPostTemplate = ({ data}) => {
 
   return (
     <Layout >
+       <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
       <article
         className="blog-post static-page-body"
         itemScope

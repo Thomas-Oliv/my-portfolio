@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://tom-oliver.me",
-    title: "My-Portfolio",
+    title: "My Portfolio",
     author: {
       name: `Thomas Oliver`,
       summary: `, a computer engineering student at the University of Waterloo.`,
