@@ -14,7 +14,7 @@ const AboutIndex = ({ data}) => {
         itemType="http://schema.org/Article"
       >
         <header >
-          <h1 className="static-page-title" itemProp="headline">{post.frontmatter.name}</h1>
+          <h1 className="static-page-title" itemProp="headline">{post.frontmatter.title}</h1>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -36,14 +36,14 @@ export const pageQuery = graphql`
       }
     }
     markdownRemark(
-      frontmatter: {title: {eq: "about-static"}}
+      frontmatter: {title: {eq: "About"}}
+      fields: {collection: {eq: "static"}}
       ) {
       id
       excerpt(pruneLength: 160)
       html
       frontmatter {
         title
-        name
         banner {
           childImageSharp {
             fluid(maxWidth: 1024) {

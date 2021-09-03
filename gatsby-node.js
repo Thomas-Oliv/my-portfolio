@@ -12,6 +12,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     `
       {
         allMarkdownRemark(
+          filter: {fields: {collection: {eq: "blog"}}}
           sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
         ) {
@@ -25,6 +26,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     `
   )
+
+  console.log(result);
 
   if (result.errors) {
     reporter.panicOnBuild(

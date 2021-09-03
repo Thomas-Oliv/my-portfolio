@@ -1,6 +1,5 @@
 ---
-title: experience-static
-name: My Experience
+title: Experience
 banner: 805656.jpg
 description: TEST
 ---
