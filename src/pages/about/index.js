@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../../components/layout/layout"
 
 const AboutIndex = ({ data}) => {
-  console.log(data);
   const post = data.markdownRemark
 
   return (
