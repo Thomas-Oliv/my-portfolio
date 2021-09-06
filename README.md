@@ -1,7 +1,7 @@
 
 <h1 align="center">I created this website in a few days using gatsby & the blog boilerplate.</h1>
 
-<p align="center"> Site Icon: <img alt="Gatsby" src="./images/gatsby-icon.png" width="60"/>
+<p align="center"> Site Icon: <img alt="Gatsby" src="./src/images/gatsby-icon.png" width="60"/>
   was made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 </p>
 
