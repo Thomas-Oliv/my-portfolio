@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+//Used a styled component to handle the navbar changing from mobile hamburger to the horizontal navbar.
 export const NavMenu = styled.ul`
     display:flex;
     align-items: center;

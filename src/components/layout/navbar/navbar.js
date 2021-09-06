@@ -8,7 +8,9 @@ import { Link } from 'gatsby'
 
 const Navbar = () => {
 
+    //Use state to keep track of hamburger menu state
     const [isOpen, setIsOpen] = useState(false);
+    //use state to keep track of scroll position
     const [scroll, setScroll] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -17,11 +19,13 @@ const Navbar = () => {
     const changeNav = () => setScroll(window.scrollY >=80 ? true : false);
     
 
+    //add a listener to the scroll event to track screen position
     useEffect(() => {
         changeNav();
         window.addEventListener("scroll", changeNav)
     }, [])
 
+    //Generates the page header and aav bar
     return (
         <>
             <nav className={`nav background-dark ${scroll ? "opacity-90" : "opacity-100"}`}  active={scroll.toString()}>

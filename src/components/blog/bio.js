@@ -8,7 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
+//Get data for the biography card.
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
@@ -31,6 +31,7 @@ const Bio = () => {
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
 
+  //Generate the biography card with my profile picture
   return (
     <div className="bio">
       <StaticImage
@@ -44,6 +45,7 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
+        //Link my github & linkedIn
         <p className="color-dark bio-text">
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` You should follow me on `}

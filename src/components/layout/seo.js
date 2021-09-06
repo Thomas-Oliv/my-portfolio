@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+//Get the static data from the site metadata
 const Seo = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -32,6 +33,7 @@ const Seo = ({ description, lang, meta, title }) => {
   const defaultTitle = site.siteMetadata?.title
 
   return (
+    //Store the static data in the site metadata using react helmet.
     <Helmet
       htmlAttributes={{
         lang,
