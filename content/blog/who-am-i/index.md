@@ -1,7 +1,7 @@
 ---
 title: "Who Am I? "
 date: 2021-09-04T20:05:56.126Z
-description: First Post
+description: A little background about me and my passion for technology.
 ---
 I am a computer engineering undergraduate student at the University of Waterloo entering my 2B term. I built this website to display my accomplishments during school, coop, and my personal life. I first became interested in computer engineering in grade 7 when I built my first computer. I set a goal for myself then to pursue this field then and I have accomplished my goals thus far. I have a strong passion to learn about how computers function and eventually I taught myself how to code. The first language I learned was Python. At the time, I was interested in game development so I learned how to create simple 2D games. 
 
