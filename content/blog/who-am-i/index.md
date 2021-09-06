@@ -1,0 +1,18 @@
+---
+title: "Who Am I? "
+date: 2021-09-04T20:05:56.126Z
+description: First Post
+---
+I am a computer engineering undergraduate student at the University of Waterloo entering my 2B term. I built this website to display my accomplishments during school, coop, and my personal life. I first became interested in computer engineering in grade 7 when I built my first computer. I set a goal for myself then to pursue this field then and I have accomplished my goals thus far. I have a strong passion to learn about how computers function and eventually I taught myself how to code. The first language I learned was Python. At the time, I was interested in game development so I learned how to create simple 2D games. 
+
+##### High School
+
+In high school, I had the opportunity to take both computer science and computer engineering electives which cemented my goal of becoming a computer engineer. With my prior knowledge of building computers & programming, I was easily able to excel in both classes. In grade 11 I joined my school's robotics team and quickly assumed a leader/mentorship role among the other students. The first competition was rocky as many members including myself were new. It was a great learning experience for everyone including myself and it allowed our team to grow significantly from our mistakes. To better prepare for the next annual competition, I used a 3D modeling software called Fusion 360 to design the entire robot including movement to have a blueprint the team could use to build the robot. This gave everyone including the programmers a good visual of how the robot would function so that all the members could work as efficiently as possible before the next competition. The code for this robot improved significantly over the previous generation as it implemented a potential- integral-derivative (PID) control system which I helped design to improve the steering of the robot considerably. We also were able to create some autonomous features for the competition. This robot performed significantly better than the previous generation and our team was able to reach the provincial level for the competition which was the best our school has ever achieved so far. Although we did improve, our team still had much to learn and improve on. As it was the last year I would be attending high school, I created an in-depth document to teach future students everything I learned throughout my time on the team. My biggest regret was not joining the team sooner as I believe we could have gone much farther but I am glad I was able to have the experience.
+
+##### Post Secondary
+
+During my time at university, I've had time to improve my understanding of computers and programming through courses such as ECE 150 and ECE 222. I've also had great co-op experiences which furthered my diversity of programming languages and my professionalism. I competed in the Waterloo Engineering Competition and the Ontario Engineering Competition. For the WEC, my team and I developed a scholarly search engine using the Google search API and the .NET framework. Our team came first and was able to compete in the OEC where we had to design a Covid tracing application to predict the spread of the virus throughout a school environment. Sadly our team did not go any further in the competition but it was a great experience nonetheless. I plan on continuing to compete in similar competitions in the future to challenge myself.
+
+##### This Site
+
+I chose to build this site using the gatsby framework as I wanted to learn more about react and the out-of-the-box content management with gatsby makes management for the site much easier. I opted to used Netlify CMS as it is free to use and something new to me.
