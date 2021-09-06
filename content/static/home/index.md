@@ -1,6 +1,5 @@
 ---
 title: Home
-banner: 805656.jpg
 description: Home Page
 ---
 <h1 class="color-primary" align="center"> Welcome To My Site!</h1>

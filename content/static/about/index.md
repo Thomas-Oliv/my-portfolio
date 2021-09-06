@@ -1,7 +1,5 @@
 ---
 title: About
-date: 2015-05-01T22:12:03.284Z
-banner: salty_egg.jpg
 description: About Page
 ---
 I am a computer engineering undergraduate student at the University of Waterloo entering my 2B term. I built this website to display my accomplishments during school, coop, and my personal life. I first became interested in computer engineering in grade 7 when I built my first computer. I set a goal for myself then to pursue this field then and I have accomplished my goals thus far. I have a strong passion to learn about how computers function and eventually I taught myself how to code. The first language I learned was Python. At the time, I was interested in game development so I learned how to create simple 2D games. 
