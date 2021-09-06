@@ -1,5 +1,5 @@
 ---
-title: My 2B term
+title: My 2B Term
 date: 2021-09-06T20:06:36.069Z
 description: How I plan to spend my 2B term online...
 ---
