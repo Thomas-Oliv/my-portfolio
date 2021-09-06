@@ -1,6 +1,6 @@
 ---
 title: Projects
 banner: 805656.jpg
-description: TEST
+description: My Personal Projects
 ---
 test!
