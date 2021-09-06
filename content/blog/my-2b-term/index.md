@@ -1,7 +1,7 @@
 ---
 title: My 2B term
 date: 2021-09-06T20:06:36.069Z
-description: My second blog post
+description: How I plan to spend my 2B term online...
 ---
 Hello!
 
