@@ -2,9 +2,7 @@
 title: Experience
 description: My Work/Co-op Experience
 ---
-**Full Stack Developer -** *AuraData*
-
-May 2021 – Aug 2021
+**<h3>Full Stack Developer</h3>** | *AuraData |* May 2021 – Aug 2021
 
 * Implemented a rich text editor to the existing **CMS** to improve useability.
 * designed a secure payment profile system to store user payment methods for future use.
@@ -15,18 +13,14 @@ May 2021 – Aug 2021
 * Used **Linq** to create efficient database queries to optimize the site.
 * Made **custom API** endpoints to link the front and back ends.
 
-**.Net/C# Software Developer -** *Innovative Automation Inc.*
-
-Sep 2020 – Dec 2020
+**<h3>.Net/C# Software Developer</h3>** |*Innovative Automation Inc. |* Sep 2020 – Dec 2020
 
 * Managed and coordinated **ERP data migration** and implementation.
 * **Researched and constructed** an industrial data logging device.
 * Produced several C# applications for use within the ERP system.
 * The financial tracker involved complex queries using SQL and Linq.
 
-**.Net/C# Software Developer -** *Innovative Automation Inc.*
-
-Jan 2020 – May 2020
+**<h3>.Net/C# Software Developer</h3>** | *Innovative Automation Inc. |* Jan 2020 – May 2020
 
 * Used **SQL Server Reporting Services** to create several clean, modern, and intuitive reports for various applications.
 * Some examples of these reports include an employee vacation report and material usage and **predicted usage report**.
