@@ -8,7 +8,7 @@ description: My Personal Projects
 
 * Researched, Designed, and tested an industrial data collection device to store machine performance metrics.
 * The device can read data from the PLC and migrate the data to the cloud for storage in near real-time.
-* Implemented the **engineering design process** to select the most optimal design.
+* Implemented the engineering design process to select the most optimal design.
 
 ### **Anime Schedule Bot**
 
@@ -22,7 +22,7 @@ description: My Personal Projects
 
 *Personal Project*
 
-* Programmed a 2D side scrolling game in Python and Java.
+* Programmed a 2D side-scrolling game in Python and Java.
 * Includes different enemy types, GUI, animations, sound, and projectiles.
 
 ### **Portfolio/Blog Website**
