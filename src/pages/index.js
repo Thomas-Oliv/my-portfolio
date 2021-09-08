@@ -42,13 +42,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        banner {
-          childImageSharp {
-            fluid(maxWidth: 1024) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         description
       }
     }
