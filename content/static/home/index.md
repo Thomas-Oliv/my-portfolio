@@ -7,4 +7,6 @@ description: Home Page
 
 ![](https://cdn.sparkfun.com/assets/home_page_posts/2/4/1/2/Front.jpg)
 
+<p align="center">The final design is still undecided as I need to consider the placement of all the circuitry. The image above is used as a reference for my end goal.</p>
+
 <p align="center">Check out my <a class="color-primary" href="https://www.tom-oliver.me/blog">blog</a> to see my progress with my keypad.</p>
