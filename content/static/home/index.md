@@ -2,7 +2,9 @@
 title: Home
 description: Home Page
 ---
-<h1 class="color-primary" align="center"> Welcome To My Site!</h1>
-<p align="center">I'm still figuring out what I should put on this page so sorry if it looks empty!</p>
+<h1 class="color-primary" align="center">Welcome!</h1>
+<p align="center">I wanted to put my free time to use during my 4th coop term so I decided to design a custom programmable keypad/stream deck! Here is a visual representation of what it will look like:</p>
 
-<p align="center">Please take a look at some of the other pages or the source code <a class="color-primary" href="https://github.com/Thomas-Oliv/my-portfolio">here</a>.</p>
+![](https://cdn.sparkfun.com/assets/home_page_posts/2/4/1/2/Front.jpg)
+
+<p align="center">Check out my <a class="color-primary" href="https://www.tom-oliver.me/blog">blog</a> to see my progress with my keypad.</p>
