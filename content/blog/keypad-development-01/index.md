@@ -7,24 +7,24 @@ I really wanted to do something different this coop term and put my free time to
 
 <ul>
 
-<li>Wireless keypad with seamless bluetooth pairing.<\li>
+<li>Wireless keypad with seamless bluetooth pairing.</li>
 
-<li>A good sized battery for long use between charges.<\li>
+<li>A good sized battery for long use between charges.</li>
 
-<li>4x4 key matrix for lots of functionality.<\li>
+<li>4x4 key matrix for lots of functionality.</li>
 
-<li>Battery saving features such as auto shut off or low power states to conserve battery charge.<\li>
+<li>Battery saving features such as auto shut off or low power states to conserve battery charge.</li>
 
-<li>Bluetooth flashing for firmware via an easy to use flashing tool.<\li>
+<li>Bluetooth flashing for firmware via an easy to use flashing tool.</li>
 
-<li>GUI to easily configure the macros and key bindings.<\li>
+<li>GUI to easily configure the macros and key bindings.</li>
 
-<li>An on/off button.<\li>
+<li>An on/off button.</li>
 
-<li>Use cherry MX switches.<\li>
+<li>Use cherry MX switches.</li>
 
-<li>Design as much of the hardware and software as I can by myself with minimal external resources.<\li>
+<li>Design as much of the hardware and software as I can by myself with minimal external resources.</li>
 
-<\ul>
+</ul>
 
-The <a href="https://www.amazon.ca/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P">Elgato streamdeck<\a> is around $200 CAD so the overall cost for development should definitely be well below that. I will be creating more posts soon updating my progress with development as well as all the tools I have to help me achieve this goal.
+The <a href="https://www.amazon.ca/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P">Elgato streamdeck</a> is around $200 CAD so the overall cost for development should definitely be well below that. I will be creating more posts soon updating my progress with development as well as all the tools I have to help me achieve this goal.
